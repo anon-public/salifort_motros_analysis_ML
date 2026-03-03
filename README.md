@@ -1,7 +1,7 @@
 # Salifort Motors Employees Churn Prediction And Analysis 
 
 # Project Summary
-Employee turnover represents a significant cost in recruitment, training, and lost institutional knowledge. This project analyzes the human resources dataset for XYZ Motors to uncover the underlying patterns of employee churn. By deploying a suite of machine learning classification models, this analysis not only predicts *which* employees are at risk of leaving but also isolates the *key factors* driving their decisions.
+Employee turnover represents a significant cost in recruitment, training, and lost institutional knowledge. This project analyzes the human resources dataset for Salifort Motors to uncover the underlying patterns of employee churn. By deploying a suite of machine learning classification models, this analysis not only predicts *which* employees are at risk of leaving but also isolates the *key factors* driving their decisions.
 
 # Project Objective
 * **Identify Churn factors:** Pinpoint the most significant variables contributing to employee turnover (e.g., compensation, tenure, department, working hours).
@@ -38,7 +38,8 @@ The models were evaluated using standard classification metrics: Accuracy, Preci
    ```bash
    git clone [https://github.com/anon-public/salifort_motors_analysis.git](https://github.com/yourusername/xyz-motors-churn.git)
 2. Install the required dependencies
- pip install -r requirements.txt
+> pip install -r requirements.txt
+
 3. Run the jupiter notebook to view the analysis.
 
 
