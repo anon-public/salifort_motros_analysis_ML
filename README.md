@@ -21,14 +21,13 @@ Employee turnover represents a significant cost in recruitment, training, and lo
 ## Model Performance and Evaluation 
 The models were evaluated using standard classification metrics: Accuracy, Precision, Recall, and the F1-Score. In the context of employee churn, a heavy emphasis was placed on **Recall** to minimize false negatives (failing to identify an employee who is actually a flight risk).
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **Logistic Regression** | 0.00 | 0.00 | 0.00 | 0.00 |
-| **Decision Tree** | 0.00 | 0.00 | 0.00 | 0.00 |
-| **Random Forest** | 0.00 | 0.00 | 0.00 | 0.00 |
-| **XGBoost** | **0.00** | **0.00** | **0.00** | **0.00** |
+| Model | Accuracy | Precision | Recall | F1-Score | AUC |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Decision Tree** | 0.98 | 0.97 | 0.92 | 0.94 | 0.96 |
+| **Random Forest** | 0.98 | 0.98 | 0.90 | 0.94 | 0.97 |
+| **XGBoost** | **0.98** | **0.98** | **0.90** | **0.95** | **0.97** |
 
-> **Conclusion:** The XGBoost model outperformed the baseline algorithms, successfully capturing complex relationships in the HR data while maintaining high precision and recall.
+> **Conclusion:** The XGBoost model outperformed the baseline algorithms, successfully capturing complex relationships in the HR data while maintaining high precision.
 
 # Tech Stack And Local Setup
 **Core Technologies:** Python, Pandas, Scikit-Learn, XGBoost, Matplotlib, Seaborn
