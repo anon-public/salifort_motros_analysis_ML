@@ -36,9 +36,11 @@ The models were evaluated using standard classification metrics: Accuracy, Preci
 1. Clone the repository:
    ```bash
    git clone [https://github.com/anon-public/salifort_motors_analysis.git](https://github.com/yourusername/xyz-motors-churn.git)
+   ```
 2. Install the required dependencies
-> pip install -r requirements.txt
-
+```bash
+ pip install -r requirements.txt
+```
 3. Run the jupiter notebook to view the analysis.
 
 
