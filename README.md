@@ -10,7 +10,7 @@ Employee turnover represents a significant cost in recruitment, training, and lo
 
 # Methodolody And ML models
 1. **Logistic Regression:** Establishes a baseline performance and provides interpretable linear relationships between features and churn.
-2. **Decision Tree Classifier:** Captures non-linear patterns and offers clear, rule-based decision paths however, can overfit the data.
+2. **Decision Tree Classifier:** Captures non linear patterns and offers clear, rule based decision paths however, can overfit the data.
 3. **Random Forest:** An ensemble method utilized to reduce variance, prevent overfitting, and improve generalization.
 4. **XGBoost:** A high-performance gradient boosting algorithm optimized for complex pattern recognition and maximum predictive accuracy.
 
@@ -27,7 +27,7 @@ The models were evaluated using standard classification metrics: Accuracy, Preci
 | **Random Forest** | 0.98 | 0.98 | 0.90 | 0.94 | 0.97 |
 | **XGBoost** | **0.98** | **0.98** | **0.90** | **0.95** | **0.97** |
 
-> **Conclusion:** The XGBoost model outperformed the baseline algorithms, successfully capturing complex relationships in the HR data while maintaining high precision.
+> **Conclusion:** The **XGBoost** model outperformed the baseline algorithms, successfully capturing complex relationships in the data while maintaining high precision.
 
 # Tech Stack And Local Setup
 **Core Technologies:** Python, Pandas, Scikit-Learn, XGBoost, Matplotlib, Seaborn
