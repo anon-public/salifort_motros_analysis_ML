@@ -35,7 +35,7 @@ The models were evaluated using standard classification metrics: Accuracy, Preci
 ### Quick Start Guide
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/anon-public/salifort_motors_analysis.git](https://github.com/anon-public/salifort_motors_analysis.git)
+   git clone [https://github.com/anon-public/salifort_motors_analysis.git](https://github.com/YOURUSERNAME/salifort_motors_analysis.git)
    ```
 2. Install the required dependencies
 ```bash
